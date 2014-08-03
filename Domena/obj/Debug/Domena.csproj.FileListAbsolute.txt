@@ -1,0 +1,5 @@
+C:\Repos\inzynierka\Domena\bin\Debug\Domena.dll
+C:\Repos\inzynierka\Domena\bin\Debug\Domena.pdb
+C:\Repos\inzynierka\Domena\obj\Debug\Domena.csprojResolveAssemblyReference.cache
+C:\Repos\inzynierka\Domena\obj\Debug\Domena.dll
+C:\Repos\inzynierka\Domena\obj\Debug\Domena.pdb

@@ -302,6 +302,12 @@
   <ItemGroup>
     <None Include="Resources\VerticalSpeedNeedle.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domena\Domena.csproj">
+      <Project>{baffd788-b864-4795-9e0f-e43419530f94}</Project>
+      <Name>Domena</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

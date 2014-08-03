@@ -14,17 +14,17 @@ namespace WindowsFormsApplication1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            IDeviceCommunication device;
-            if (commandLine == "--test")
-            {
-                device = new FakeCommunitaction();
-            }
-            else
-            {
-                device = new DeviceCommunication();
-            }
+            //IDeviceCommunication device;
+            //if (commandLine == "--test")
+            //{
+            //    device = new FakeCommunitaction();
+            //}
+            //else
+            //{
+            //    device = new DeviceCommunication();
+            //}
 
-            Application.Run(new Form1(device));
+            Application.Run(new Form1());
         }
     }
 }

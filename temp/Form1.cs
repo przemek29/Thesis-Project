@@ -1,69 +1,60 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using System.IO.Ports;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Windows.Forms.Design;
-using System.Timers;
 using System.Windows.Threading;
+using Domena;
 
 namespace WindowsFormsApplication1
 {
-    public interface IDeviceCommunication
-    {
-        void Initialise();
-        event SerialDataReceivedEventHandler ReceiveData;
-        void Terminate();
-    }
+    //public interface IDeviceCommunication
+    //{
+    //    void Initialise();
+    //    event SerialDataReceivedEventHandler ReceiveData;
+    //    void Terminate();
+    //}
 
-    public class DeviceCommunication : IDeviceCommunication
-    {
-        private SerialPort _port = new SerialPort();
+    //public class DeviceCommunication : IDeviceCommunication
+    //{
+    //    private SerialPort _port = new SerialPort();
 
-        public void Initialise()
-        {
-            _port.Open();
-            _port.DataReceived += PortOnDataReceived;
-        }
+    //    public void Initialise()
+    //    {
+    //        _port.Open();
+    //        _port.DataReceived += PortOnDataReceived;
+    //    }
 
-        private void PortOnDataReceived(object sender, SerialDataReceivedEventArgs serialDataReceivedEventArgs)
-        {
-            if (ReceiveData != null)
-                ReceiveData(sender, serialDataReceivedEventArgs);
-        }
+    //    private void PortOnDataReceived(object sender, SerialDataReceivedEventArgs serialDataReceivedEventArgs)
+    //    {
+    //        if (ReceiveData != null)
+    //            ReceiveData(sender, serialDataReceivedEventArgs);
+    //    }
 
-        public event SerialDataReceivedEventHandler ReceiveData;
+    //    public event SerialDataReceivedEventHandler ReceiveData;
 
-        public void Terminate()
-        {
-            throw new NotImplementedException();
-        }
-    }
+    //    public void Terminate()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+    //}
 
-    public class FakeCommunitaction : IDeviceCommunication
-    {
-        public void Initialise()
-        {
-            throw new NotImplementedException();
-        }
+    //public class FakeCommunitaction : IDeviceCommunication
+    //{
+    //    public void Initialise()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
 
-        public event CosTam ReceiveData;
-        public void Terminate()
-        {
-            throw new NotImplementedException();
-        }
-    }
+    //    public event CosTam ReceiveData;
+    //    public void Terminate()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+    //}
 
     public partial class Form1 : Form
     {
-        private readonly IDeviceCommunication _device;
+        //private readonly IDeviceCommunication _device;
         private DispatcherTimer timer = new DispatcherTimer();
 
 
@@ -80,16 +71,16 @@ namespace WindowsFormsApplication1
 
 
 
-        public Form1(IDeviceCommunication device)
+        public Form1(/*IDeviceCommunication device*/)
        
         {
-            _device = device;
+            //_device = device;
             timer.Interval = new TimeSpan(0, 0, 0, 0, 1);
             timer.Tick += TimerOnTick;
             timer.Start();    
             InitializeComponent();
 
-            _device.ReceiveData += serialPort1_DataReceived;
+            //_device.ReceiveData += serialPort1_DataReceived;
         }
         /*
         int sekundy = 60;
@@ -784,17 +775,13 @@ namespace WindowsFormsApplication1
 
 
                 //Zamiana stopni dzisiętnych na stopnie, minuty i sekundy azymutu pomiarowego
-                double minuty_azymutu = (stopnie - Math.Floor(stopnie)) * 60.0;
-                double sekundy_azymutu = (minuty_azymutu - Math.Floor(minuty_azymutu)) * 60.0;
-                double dziesiatki_azymutu = (sekundy_azymutu - Math.Floor(sekundy_azymutu)) * 10.0;
-                //pozbycie się części ułamkowej
-                minuty_azymutu = Math.Floor(minuty_azymutu);
-                sekundy_azymutu = Math.Floor(sekundy_azymutu);
-                dziesiatki_azymutu = Math.Floor(dziesiatki_azymutu);
 
                 //Wypisanie wartości azymutu w stopniach,minutach i sekundach
-                textBox28.Text = sekundy_azymutu.ToString();
-                textBox27.Text = minuty_azymutu.ToString();
+
+                var miara_kata = Helper.StopnieDoMiaryKatowej(stopnie);
+
+                textBox28.Text = miara_kata.sekundy_azymutu.ToString();
+                textBox27.Text = miara_kata.minuty_azymutu.ToString();
                 textBox26.Text = Math.Floor(stopnie).ToString();
 
 
@@ -836,37 +823,21 @@ namespace WindowsFormsApplication1
 
                 //Zamiana stopni dzisiętnych na stopnie, minuty i sekundy azymutu pomiarowego po filtracji kalmana
 
-                double minuty_azymutu_kalman = (x_est - Math.Floor(x_est)) * 60.0;
-                double sekundy_azymutu_kalman = (minuty_azymutu_kalman - Math.Floor(minuty_azymutu_kalman)) * 60.0;
-                double dziesiatki_azymutu_kalman = (sekundy_azymutu_kalman - Math.Floor(sekundy_azymutu_kalman)) * 10.0;
-                //pozbycie się części ułamkowej
-                minuty_azymutu_kalman = Math.Floor(minuty_azymutu_kalman);
-                sekundy_azymutu_kalman = Math.Floor(sekundy_azymutu_kalman);
-                dziesiatki_azymutu_kalman = Math.Floor(dziesiatki_azymutu_kalman);
+                var miara_katowa_kalman = Helper.StopnieDoMiaryKatowej(x_est);
 
                 //Wypisanie wartości azymutu po filtracji Kalmana w stopniach,minutach i sekundach
-                textBox11.Text = sekundy_azymutu_kalman.ToString();
-                textBox13.Text = minuty_azymutu_kalman.ToString();
+                textBox11.Text = miara_katowa_kalman.sekundy_azymutu.ToString();
+                textBox13.Text = miara_katowa_kalman.minuty_azymutu.ToString();
                 textBox46.Text = Math.Floor(x_est).ToString();
                 
                 //Zamiana stopni dzisiętnych na stopnie, minuty i sekundy azymutu pomiarowego
-                double minuty_azymutu_dekl = (deklinacja_stopnie - Math.Floor(deklinacja_stopnie)) * 60.0;
-                double sekundy_azymutu_dekl = (minuty_azymutu_dekl - Math.Floor(minuty_azymutu_dekl)) * 60.0;
-                double dziesiatki_azymutu_dekl = (sekundy_azymutu_dekl - Math.Floor(sekundy_azymutu_dekl)) * 10.0;
-                //pozbycie się części ułamkowej
-                minuty_azymutu_dekl = Math.Floor(minuty_azymutu_dekl);
-                sekundy_azymutu_dekl = Math.Floor(sekundy_azymutu_dekl);
-                dziesiatki_azymutu_dekl = Math.Floor(dziesiatki_azymutu_dekl);
-
+                var miara_katowa_dekl = Helper.StopnieDoMiaryKatowej(deklinacja_stopnie);
 
                 //Wypisanie wartości azymutu z poprawką deklinacyjną w stopniach,minutach i sekundach
-                textBox29.Text = sekundy_azymutu_dekl.ToString();
-                textBox30.Text = minuty_azymutu_dekl.ToString();
+                textBox29.Text = miara_katowa_dekl.sekundy_azymutu.ToString();
+                textBox30.Text = miara_katowa_dekl.minuty_azymutu.ToString();
                 textBox31.Text = Math.Floor(deklinacja_stopnie).ToString();
 
-
-              
-               
                 int kierunek = Convert.ToInt16(Math.Floor(x_est));
               //  kierunek = numericUpDown1.Value();
                 double obracanie = x_est;
