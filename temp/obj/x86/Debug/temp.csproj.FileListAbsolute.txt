@@ -1,0 +1,88 @@
+C:\Users\przem\Desktop\projekty visual\temp\temp\bin\Debug\temp.exe
+C:\Users\przem\Desktop\projekty visual\temp\temp\bin\Debug\temp.pdb
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Debug\temp.csprojResolveAssemblyReference.cache
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Debug\temp.csproj.GenerateResource.Cache
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Debug\temp.exe
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Debug\temp.pdb
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\przem\Desktop\temp\temp\obj\x86\Debug\temp.exe
+C:\Users\przem\Desktop\temp\temp\obj\x86\Debug\temp.pdb
+C:\Users\przem\Desktop\temp\temp\bin\Debug\temp.exe
+C:\Users\przem\Desktop\temp\temp\bin\Debug\temp.pdb
+C:\Users\przem\Desktop\temp\temp\obj\x86\Debug\temp.csprojResolveAssemblyReference.cache
+C:\Users\przem\Desktop\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\przem\Desktop\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\przem\Desktop\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\przem\Desktop\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\przem\Desktop\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\przem\Desktop\temp\temp\obj\x86\Debug\temp.csproj.GenerateResource.Cache
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\temp.csprojResolveAssemblyReference.cache
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\temp.csproj.GenerateResource.Cache
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Resources.Resource1.resources
+C:\Users\przem\Desktop\temp\temp\temp\bin\Debug\Praca dyplomowa.exe
+C:\Users\przem\Desktop\temp\temp\temp\bin\Debug\Praca dyplomowa.pdb
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\Praca dyplomowa.exe
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\Praca dyplomowa.pdb
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Forma.resources
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.tabela.resources
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\przem\Desktop\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.wykres.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\Praca dyplomowa.exe
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\Praca dyplomowa.pdb
+C:\Users\przem\Desktop\temp\temp\temp\temp\bin\Debug\Praca dyplomowa.exe
+C:\Users\przem\Desktop\temp\temp\temp\temp\bin\Debug\Praca dyplomowa.pdb
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\temp.csprojResolveAssemblyReference.cache
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Forma.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Resources.Resource1.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.tabela.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.wykres.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Debug\temp.csproj.GenerateResource.Cache
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\Praca dyplomowa.exe
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\Praca dyplomowa.pdb
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\bin\Debug\Praca dyplomowa.exe
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\bin\Debug\Praca dyplomowa.pdb
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\temp.csprojResolveAssemblyReference.cache
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Forma.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Resources.Resource1.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.tabela.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.wykres.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\temp.csproj.GenerateResource.Cache
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\Praca dyplomowa.exe
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\Praca dyplomowa.pdb
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\bin\Debug\Praca dyplomowa.exe
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\bin\Debug\Praca dyplomowa.pdb
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\temp.csprojResolveAssemblyReference.cache
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.AboutBox1.resources
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Forma.resources
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.Resources.Resource1.resources
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.tabela.resources
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\WindowsFormsApplication1.wykres.resources
+C:\Users\FFF\Desktop\ulala\temp\temp\temp\temp\obj\x86\Debug\temp.csproj.GenerateResource.Cache
+G:\inzynierka wojcik\temp\obj\x86\Debug\Praca dyplomowa.exe
+G:\inzynierka wojcik\temp\obj\x86\Debug\Praca dyplomowa.pdb
+C:\Repos\inzynierka wojcik\temp\obj\x86\Debug\Praca dyplomowa.exe
+C:\Repos\inzynierka wojcik\temp\obj\x86\Debug\Praca dyplomowa.pdb
+C:\Users\FFF\Desktop\inzynierka wojcik\temp\obj\x86\Debug\Praca dyplomowa.exe
+C:\Users\FFF\Desktop\inzynierka wojcik\temp\obj\x86\Debug\Praca dyplomowa.pdb

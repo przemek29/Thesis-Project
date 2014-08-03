@@ -1,0 +1,39 @@
+C:\Users\przem\Desktop\projekty visual\temp\temp\bin\Release\temp.exe
+C:\Users\przem\Desktop\projekty visual\temp\temp\bin\Release\temp.pdb
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Release\temp.csprojResolveAssemblyReference.cache
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Release\WindowsFormsApplication1.Form1.resources
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Release\WindowsFormsApplication1.Form2.resources
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Release\temp.csproj.GenerateResource.Cache
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Release\temp.exe
+C:\Users\przem\Desktop\projekty visual\temp\temp\obj\x86\Release\temp.pdb
+C:\Users\przem\Desktop\temp\temp\temp\temp\bin\Release\Praca dyplomowa.exe
+C:\Users\przem\Desktop\temp\temp\temp\temp\bin\Release\Praca dyplomowa.pdb
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\temp.csprojResolveAssemblyReference.cache
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.AboutBox1.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.Form1.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.Form2.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.Forma.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.Resources.Resource1.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.tabela.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.wykres.resources
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\temp.csproj.GenerateResource.Cache
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\Praca dyplomowa.exe
+C:\Users\przem\Desktop\temp\temp\temp\temp\obj\x86\Release\Praca dyplomowa.pdb
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\bin\Release\Praca dyplomowa.exe
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\bin\Release\Praca dyplomowa.pdb
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\temp.csprojResolveAssemblyReference.cache
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.AboutBox1.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.Form1.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.Form2.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.Forma.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.Resources.Resource1.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.tabela.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\WindowsFormsApplication1.wykres.resources
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\temp.csproj.GenerateResource.Cache
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\Praca dyplomowa.exe
+C:\Users\przem\Desktop\ulala\temp\temp\temp\temp\obj\x86\Release\Praca dyplomowa.pdb
