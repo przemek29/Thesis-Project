@@ -1284,7 +1284,7 @@ namespace WindowsFormsApplication1
             {
                 if (timer1.Enabled == false) //sprawdzamy czy timer jest wyłączony
                 {
-
+                    // Przykladowy komentarz
                     timer1.Enabled = true; //uruchamiamy timer
                     timer1.Start(); //wystartowanie odliczania czasu
 
