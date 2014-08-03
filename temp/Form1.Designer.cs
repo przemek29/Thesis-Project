@@ -101,7 +101,7 @@
             this.label20 = new System.Windows.Forms.Label();
             this.groupBox25 = new System.Windows.Forms.GroupBox();
             this.groupBox26 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rbWykonajKalibracje = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox33 = new System.Windows.Forms.TextBox();
@@ -683,7 +683,7 @@
             // groupBox26
             // 
             this.groupBox26.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.groupBox26.Controls.Add(this.radioButton2);
+            this.groupBox26.Controls.Add(this.rbWykonajKalibracje);
             this.groupBox26.Controls.Add(this.radioButton3);
             this.groupBox26.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.groupBox26.Location = new System.Drawing.Point(10, 29);
@@ -694,16 +694,16 @@
             // 
             // radioButton2
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.radioButton2.Location = new System.Drawing.Point(6, 24);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(310, 27);
-            this.radioButton2.TabIndex = 56;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "WYKONAJ KALIBRACJĘ KOMPASU";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbWykonajKalibracje.AutoSize = true;
+            this.rbWykonajKalibracje.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.rbWykonajKalibracje.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.rbWykonajKalibracje.Location = new System.Drawing.Point(6, 24);
+            this.rbWykonajKalibracje.Name = "rbWykonajKalibracje";
+            this.rbWykonajKalibracje.Size = new System.Drawing.Size(310, 27);
+            this.rbWykonajKalibracje.TabIndex = 56;
+            this.rbWykonajKalibracje.TabStop = true;
+            this.rbWykonajKalibracje.Text = "WYKONAJ KALIBRACJĘ KOMPASU";
+            this.rbWykonajKalibracje.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
@@ -2776,7 +2776,7 @@
         public System.Windows.Forms.RadioButton radioButton1;
         public System.Windows.Forms.GroupBox groupBox24;
         public System.Windows.Forms.GroupBox groupBox25;
-        public System.Windows.Forms.RadioButton radioButton2;
+        public System.Windows.Forms.RadioButton rbWykonajKalibracje;
         public System.Windows.Forms.RadioButton radioButton3;
         public System.Windows.Forms.ProgressBar progressBar1;
         public System.Windows.Forms.RadioButton radioButton4;

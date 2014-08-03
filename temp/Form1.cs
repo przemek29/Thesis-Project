@@ -54,6 +54,7 @@ namespace WindowsFormsApplication1
 
     public partial class Form1 : Form
     {
+        
         //private readonly IDeviceCommunication _device;
         private DispatcherTimer timer = new DispatcherTimer();
 
@@ -203,23 +204,9 @@ namespace WindowsFormsApplication1
         //*************************
         //Do kalibracji magnetometru
         //*************************
-        public double wektor3D; 
+
+        private readonly KalibracjaKompasu _kalibracjaKompasu = new KalibracjaKompasu(3000, 3000, 3000);
         
-        public double max_komp_x=1;
-        public double max_komp_y=1;
-        public double max_komp_z=1;
-
-        public double min_komp_x=-1;
-        public double min_komp_y=-1;
-        public double min_komp_z=-1;
-
-        public double gain_komp_x = 1;
-        public double gain_komp_y = 1;
-        public double gain_komp_z = 1;
-
-        public double offset_komp_x = 0;
-        public double offset_komp_y = 0;
-        public double offset_komp_z = 0;
         //****************************
 
 
@@ -660,85 +647,49 @@ namespace WindowsFormsApplication1
                 //--------------------KOMPAS------------------------//
                 //*************************************************//
 
+                //______________Azymut_Pomiarowy___________________//
 
-
-
-                if (x_komp > Math.Abs(3000) || y_komp > Math.Abs(3000) || z_komp > Math.Abs(3000))
+                var x_komp_input = Convert.ToDouble(dane_pomiarowe[0]);
+                var y_komp_input = Convert.ToDouble(dane_pomiarowe[1]);
+                var z_komp_input = Convert.ToDouble(dane_pomiarowe[2]);
+                
+                if (rbWykonajKalibracje.Checked)
                 {
-                    x_komp =3000;
-                    y_komp =3000;
-                    z_komp =3000;
-                }
-                else
-                {    //______________Azymut_Pomiarowy___________________//
-                    x_komp = Convert.ToDouble(dane_pomiarowe[0]);  //konwersja zawartości x_kompasu textboxa do zmiennej double
-                    y_komp = Convert.ToDouble(dane_pomiarowe[1]);  // konwersja zawartości y_kompasu textboxa do zmiennej double
-                    z_komp = Convert.ToDouble(dane_pomiarowe[2]);  // konwersja zawartości z_kompasu textboxa do zmiennej double
-                }
+                    _kalibracjaKompasu.AddValues(x_komp_input, y_komp_input, z_komp_input);
 
-                if (radioButton2.Checked == true)
-                {
                     textBox33.Text = "TRWA KALIBRACJA...";
                     
+                    textBox36.Text = Convert.ToString(_kalibracjaKompasu.MaxX);
+                    textBox35.Text = Convert.ToString(_kalibracjaKompasu.MaxY);
+                    textBox34.Text = Convert.ToString(_kalibracjaKompasu.MaxZ);
 
-                    
-                        if (x_komp > max_komp_x) max_komp_x = x_komp;
-                        if (y_komp > max_komp_y) max_komp_y = y_komp;
-                        if (z_komp > max_komp_z) max_komp_z = z_komp;
-                        textBox36.Text = Convert.ToString(max_komp_x);
-                        textBox35.Text = Convert.ToString(max_komp_y);
-                        textBox34.Text = Convert.ToString(max_komp_z);
+                    textBox39.Text = Convert.ToString(_kalibracjaKompasu.MinX);
+                    textBox38.Text = Convert.ToString(_kalibracjaKompasu.MinY);
+                    textBox37.Text = Convert.ToString(_kalibracjaKompasu.MinZ);
 
-                        if (x_komp < min_komp_x) min_komp_x = x_komp;
-                        if (y_komp < min_komp_y) min_komp_y = y_komp;
-                        if (z_komp < min_komp_z) min_komp_z = z_komp;
-                        textBox39.Text = Convert.ToString(min_komp_x);
-                        textBox38.Text = Convert.ToString(min_komp_y);
-                        textBox37.Text = Convert.ToString(min_komp_z);
+                    textBox14.Text = Convert.ToString(_kalibracjaKompasu.Wektor3D);
 
-                        wektor3D = Math.Sqrt((max_komp_x - min_komp_x) * (max_komp_x - min_komp_x) + (max_komp_y - min_komp_y) * (max_komp_y - min_komp_y) + (max_komp_z - min_komp_z) * (max_komp_z - min_komp_z));
-                        wektor3D = Math.Round(wektor3D, 2);
-                        textBox14.Text = Convert.ToString(wektor3D);
+                    textBox42.Text = Convert.ToString(_kalibracjaKompasu.GainX);
+                    textBox41.Text = Convert.ToString(_kalibracjaKompasu.GainY);
+                    textBox40.Text = Convert.ToString(_kalibracjaKompasu.GainZ);
 
-                        gain_komp_x = wektor3D / (max_komp_x - min_komp_x);
-                        gain_komp_y = wektor3D / (max_komp_y - min_komp_y);
-                        gain_komp_z = wektor3D / (max_komp_z - min_komp_z);
-
-                        gain_komp_x = Math.Round(gain_komp_x, 2);
-                        gain_komp_y = Math.Round(gain_komp_y, 2);
-                        gain_komp_z = Math.Round(gain_komp_z, 2);
-
-                        textBox42.Text = Convert.ToString(gain_komp_x);
-                        textBox41.Text = Convert.ToString(gain_komp_y);
-                        textBox40.Text = Convert.ToString(gain_komp_z);
-
-                        offset_komp_x = ((0 - max_komp_x) + (0 - min_komp_x)) / 2;
-                        offset_komp_y = ((0 - max_komp_y) + (0 - min_komp_y)) / 2;
-                        offset_komp_z = ((0 - max_komp_z) + (0 - min_komp_z)) / 2;
-
-                        offset_komp_x = Math.Round(offset_komp_x, 2);
-                        offset_komp_y = Math.Round(offset_komp_y, 2);
-                        offset_komp_z = Math.Round(offset_komp_z, 2);
-
-
-                        textBox45.Text = Convert.ToString(offset_komp_x);
-                        textBox44.Text = Convert.ToString(offset_komp_y);
-                        textBox43.Text = Convert.ToString(offset_komp_z);
-
-                  
+                    textBox45.Text = Convert.ToString(_kalibracjaKompasu.OffsetX);
+                    textBox44.Text = Convert.ToString(_kalibracjaKompasu.OffsetY);
+                    textBox43.Text = Convert.ToString(_kalibracjaKompasu.OffsetZ);
                 }
-                if (radioButton3.Checked == true)
+
+                if (radioButton3.Checked)
                 {
                     textBox33.Text = "KALIBRACJA ZAKOŃCZONA ! ";
-                   // MessageBox.Show("KALIBRACJA ZAKOŃCZONA !");
-                    
+                    // MessageBox.Show("KALIBRACJA ZAKOŃCZONA !");
                 }
+
                 //*****************************
                 //DANE POMIAROWE PO KALIBRACJI
                 //*****************************
-                x_komp = x_komp * gain_komp_x + offset_komp_x;
-                y_komp = y_komp * gain_komp_x + offset_komp_y;
-                z_komp = z_komp * gain_komp_z + offset_komp_z;
+                x_komp = x_komp_input * _kalibracjaKompasu.GainX + _kalibracjaKompasu.OffsetX;
+                y_komp = y_komp_input * _kalibracjaKompasu.GainY + _kalibracjaKompasu.OffsetY;
+                z_komp = z_komp_input * _kalibracjaKompasu.GainZ + _kalibracjaKompasu.OffsetZ;
                 //*****************************
                 
                 textBox1.Text = Convert.ToString(x_komp);    //x-kompasu
@@ -838,6 +789,9 @@ namespace WindowsFormsApplication1
                 textBox30.Text = miara_katowa_dekl.minuty_azymutu.ToString();
                 textBox31.Text = Math.Floor(deklinacja_stopnie).ToString();
 
+
+              
+               
                 int kierunek = Convert.ToInt16(Math.Floor(x_est));
               //  kierunek = numericUpDown1.Value();
                 double obracanie = x_est;
