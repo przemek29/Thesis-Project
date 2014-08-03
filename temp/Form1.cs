@@ -1148,55 +1148,17 @@ namespace WindowsFormsApplication1
                 
                 
             }
-        
-            private void textBox7_TextChanged(object sender, EventArgs e)
-            {
-
-            }
-
-            private void button6_Click(object sender, EventArgs e)
-            {
-
-            }
-
-            private void button6_KeyDown(object sender, KeyEventArgs e)
-            {
-
-
-            }
-
-            private void button6_Click_1(object sender, EventArgs e)
-            {
-
-                       }
 
             private void button6_Click_2(object sender, EventArgs e)
             {
                 Close();
             }
 
-            
-
             private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
             {
 
             }
            
-
-            private void button7_Click(object sender, EventArgs e)
-            {
-             
-            }
-
-            private void groupBox9_Enter(object sender, EventArgs e)
-            {
-
-            }
-
-            private void textBox4_TextChanged(object sender, EventArgs e)
-            {
-
-            }
 
             private void timer1_Tick(object sender, EventArgs e)
             {
@@ -1229,30 +1191,6 @@ namespace WindowsFormsApplication1
 
             }
 
-            private void label30_Click(object sender, EventArgs e)
-            {
-
-            }
-
-            private void radioButton1_CheckedChanged(object sender, EventArgs e)
-            {
-
-            }
-
-            
-           
-            
-        
-        
-            private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-            {
-
-                if (serialPort1.IsOpen == true) serialPort1.Close();
-
-            }
-
-         
-
             private void button8_Click(object sender, EventArgs e)
             {
                 UpdateMethod();
@@ -1271,12 +1209,7 @@ namespace WindowsFormsApplication1
                 */
             }
 
-            private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-            {
-
-            }
-
-            private void tabPage3_Click(object sender, EventArgs e)
+        private void tabPage3_Click(object sender, EventArgs e)
             {
 
             }
@@ -1286,12 +1219,7 @@ namespace WindowsFormsApplication1
 
             }
 
-            private void chart2_Click(object sender, EventArgs e)
-            {
-
-            }
-
-            private void groupBox24_Enter(object sender, EventArgs e)
+        private void groupBox24_Enter(object sender, EventArgs e)
             {
 
             }
@@ -1301,12 +1229,7 @@ namespace WindowsFormsApplication1
                 MessageBox.Show("Deklinację magnetyczną można sprawdzić dla danego miejsca na ziemi na stronie: http://www.geomag.bgs.ac.uk/data_service/models_compass/wmm_calc.html");
             }
 
-            private void button4_Click(object sender, EventArgs e)
-            {
-                
-            }
-
-            /*private void angle_ValueChanged(object sender, EventArgs e)
+        /*private void angle_ValueChanged(object sender, EventArgs e)
             {
 
                 if (angle.Value > 359.9m)
@@ -1429,12 +1352,7 @@ namespace WindowsFormsApplication1
                      
                 }
 
-            private void tabPage5_Click(object sender, EventArgs e)
-            {
-                
-            }
-
-            private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
             {
 
             }
